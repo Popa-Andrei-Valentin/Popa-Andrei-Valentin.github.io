@@ -1,0 +1,13 @@
+@media (max-width: 450px) {
+  /* Sticky email removal (right) */
+  .email-container {
+    display: none;
+
+    /* Sticky icons removal (left) */
+  }
+
+  .sticky-container {
+    display: none;
+  }
+  /* ABOUT ME SECTION */
+}
