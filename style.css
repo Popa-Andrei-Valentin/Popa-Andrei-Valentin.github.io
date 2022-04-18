@@ -443,6 +443,13 @@ body {
   border-radius: 8px;
 }
 
+.bankist-left-kite {
+  width: 80%;
+  height: 600px;
+  background: url(/imgs/kite-ss.PNG) no-repeat center / contain;
+  border-radius: 8px;
+}
+
 .bankist-right {
   width: 50%;
   min-height: 200px;
@@ -524,6 +531,11 @@ body {
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    margin-bottom: 3rem;
+  }
+  .--kite {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+      url(/imgs/kite-ss.PNG);
   }
 
   .mobile h1 {
@@ -566,8 +578,7 @@ body {
     word-spacing: 3px;
     line-height: 1.5;
   }
-
-  .mobile .tech {
+  .tech-mobile {
     font-size: 0.94rem;
     font-family: "Share Tech Mono", monospace;
     color: #939eac;
@@ -576,6 +587,7 @@ body {
     padding-bottom: 1rem;
     text-decoration: none;
   }
+
   .mobile a {
     text-decoration: none;
     color: #939eac;
